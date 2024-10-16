@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { CardComponent } from "./MyComponents/card/card.component";
+import { CardComponent } from './MyComponents/card/card.component';
 import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
-import { NavbarComponent } from "./MyComponents/navbar/navbar.component";
+import { NavbarComponent } from './MyComponents/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
@@ -13,10 +13,10 @@ import { NavbarComponent } from "./MyComponents/navbar/navbar.component";
     FormsModule,
     RouterOutlet,
     HttpClientModule,
-    NavbarComponent
-],
+    NavbarComponent,
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'Chemistry';

@@ -4,7 +4,7 @@ import { ApiResponse } from '../Interface';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class CompoundsDataService {
   apiurl = 'http://localhost:3000/api/compound/all';

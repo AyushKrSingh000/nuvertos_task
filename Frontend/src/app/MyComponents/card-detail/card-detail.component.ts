@@ -11,9 +11,8 @@ import { Compound } from '../../Compound';
   standalone: true,
   imports: [NgIf, FormsModule],
   templateUrl: './card-detail.component.html',
-  styleUrls: ['./card-detail.component.css']
+  styleUrls: ['./card-detail.component.css'],
 })
-
 export class CardDetailComponent {
   compound: Compound;
   isEditing: boolean = false;
@@ -22,7 +21,7 @@ export class CardDetailComponent {
     private route: ActivatedRoute,
     private compoundDataById: CompoundDataService,
     private updateCompoundService: UpdateCompoundService
-  ) { }
+  ) {}
 
   ngOnInit(): void {
     const cid = this.route.snapshot.params['cid'];
@@ -37,7 +36,7 @@ export class CardDetailComponent {
       },
       error: (err) => {
         console.error('Error fetching compound data', err);
-      }
+      },
     });
   }
 
@@ -64,7 +63,7 @@ export class CardDetailComponent {
       },
       error: (err) => {
         console.error('Error updating compound:', err);
-      }
+      },
     });
   }
 }
