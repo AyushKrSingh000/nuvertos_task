@@ -1,5 +1,3 @@
-const readmeContent = `
-
 # Fullstack Project
 
 This project is a fullstack application consisting of a Node.js backend and an Angular frontend. The backend manages the API and database interactions, while the frontend provides a user interface.
