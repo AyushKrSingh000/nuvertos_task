@@ -1,0 +1,8 @@
+<!-- <app-add-card (addCard)="addTheCard($event)"></app-add-card> -->
+<app-navbar></app-navbar>
+<div class="card-grid">
+    <div *ngFor="let card of cards">
+        <app-card-item [card]="card">
+        </app-card-item>
+    </div>
+</div>
