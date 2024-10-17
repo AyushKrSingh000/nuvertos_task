@@ -6,6 +6,7 @@ This project is a fullstack application consisting of a Node.js backend and an A
 
 - [Installation](#installation)
 - [Configuration](#configuration)
+- [API Documentation](#documentation)
 - [Backend Usage](#backend-usage)
   - [Start the server](#start-the-server)
   - [Development mode](#development-mode)
@@ -53,6 +54,8 @@ const sequelize = new Sequelize(
   }
 )
 ```
+### Documentation
+- [API Documentation](https://documenter.getpostman.com/view/26894077/2sAXxTdXBM)
 
 ### Frontend
 
